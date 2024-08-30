@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.background-image {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url('./images/Remove background project.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background: rgba(255, 255, 255, 0.5) url('./images/Remove background project.png') no-repeat center;
+}
+@media (max-width: 768px) {
+    .Hero {
+        background-size: contain;
+    }
+}
+.Hero{
+    padding-top: 60px;
+    background-color: #F7EFE5;
+    height: 250px;
+    background-image:('./images/Remove background project.png') ;
+    background-size:200px by 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family:"Playwrite CU",cursive;
+    font-size: 2rem;
+    font-weight: 700;  
+    color: #674188;
+}
+h2{
+    margin-top: 10px;
+    color: #85758f;
+}
+a{
+    color: #85758f;
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+.Myintro{
+    width: 30%;
+    margin: auto;
+    color: #674188;
+    font-size: larger;
+}
+.mypic{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+h3{
+    color: #85758f;
+}
+.Skills{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.webdeveloper{
+    grid-area: 1/2/2/3;
+}
+.webdevelopment{
+    grid-area: 1/3/2/4;
+   text-align: justify;
+   width: 100%;
+   color: #674188;
+    font-size: larger;
+}
+.Noodles{
+    grid-area: 2/2/3/3;
+}
+.Noodleschallege{
+ grid-area: 2/3/3/4;
+    text-align: justify;
+   width: 100%;
+   color: #674188;
+    font-size: larger;
+}
+.contact{
+    color: #674188;
+    font-size: larger;
+    width: 40%;
+    margin: auto;
+}
+button{
+    background-color: #85758f;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    color: #F7EFE5;
+    font-size: larger;
+    padding: 10px;
+}
+a{
+    height: 200px;
+}
+.copyright{
+  color: #674188;
+}
+footer{
+    background-color: #F7EFE5;
+    padding:40px;
+}
